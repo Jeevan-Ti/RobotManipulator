@@ -1,5 +1,8 @@
 ## Welcome to GitHub Pages
 
+![image](https://user-images.githubusercontent.com/49190581/127184973-cc0a5b1d-22e9-42f1-b72b-733f363ba98d.png)
+
+
 You can use the [editor on GitHub](https://github.com/Jeevan-Ti/RobotManipulator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
