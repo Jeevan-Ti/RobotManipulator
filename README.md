@@ -1,5 +1,5 @@
 # RobotManipulator
-<p> For my personal anecdote and other details on project visit GitHub page site <a href = "https://jeevan-ti.github.io/RobotManipulator/"><b>here</b></a>.</p>
+<p> For my personal anecdote and theory of project please visit GitHub page site <a href = "https://jeevan-ti.github.io/RobotManipulator/"><b>here</b></a>.</p>
 <p>In this project I will first show the implementaion of manual control using LabVIEW, XBox & Arduino and then a fully autonomous implementation.
   
 ## Technical details
