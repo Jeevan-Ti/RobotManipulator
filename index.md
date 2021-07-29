@@ -4,7 +4,7 @@ This project implements manual control of a 3R-manipulator using LabVIEW, XBox &
 <p>
   &emsp; Though I would like to strictly mention technical details of the project here, I feel, for me this project is just incomplete without an anectode I would like to add.</p>
 <p>
-  Those who would like to skip can go <a href="manual code">here</a> (for manual control details) or <a href="auto code">here</a> (for autonomous control details) directly.
+  Those who would like to skip can go <a href="#manual_code">here</a> (for manual control details) or <a href="#auto_code">here</a> (for autonomous control details) directly.
 </p>
 <p>
   &emsp; In the 1st semester of college I won in some very easy(not for a novice like me at that time though) technical competitions as any fresher, where I felt, kind of a reconnection with the maker in me. And through those competitions I found this great student club at Lovely Professional University -LPU, called Robotics and Intelligent Systems Community <a href="https://www.facebook.com/RISC.LPU/"> <b>RISC-LPU</b></a>, whose motto says <b>"Learn Implement Share"</b>. In this club I found greatly motivated and enthusiastic students who were going an extra-mile to implement their domain knowledge and at the same time organising workshops to share their experience. Our mentor and founder of RISC-LPU, Asst Prof. Bikash Kant sir, motivated me to take up a project on Robot Manipulator which was'nt explored by the club that time. 
@@ -21,7 +21,7 @@ A [friend](https://www.linkedin.com/in/vinaykumarreddykomma/) of mine later desi
 ![20210727_130156](https://user-images.githubusercontent.com/49190581/127200899-f5317628-6345-4f21-9465-e68cfa2b8640.gif)
 
 <h3>
-<a id="manual code">Manual Control using LabVIEW & XBox</a>
+<a id="manual_code">Manual Control using LabVIEW & XBox</a>
   </h3>
   
 <p>The arm has three revolute joints (excluding end-effector). So, three servo motors with adequate torque had been used as actuators.</p>
@@ -127,7 +127,7 @@ As you can see,
 
 <p>Now let us implement above sollution in C++.</p>
 <h3>
-  <a id="auto code">
+  <a id="auto_code">
     C++ Implementation
     </a>
   </h3>
