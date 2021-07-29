@@ -1,6 +1,8 @@
-## Robot Manipulator
-This project implements manual control of a 3R-manipulator using LabVIEW, XBox & Arduino and then a fully autonomous implementation involving inverse kinematic solution implemented using C++.
+# Robot Manipulator
+<p align="justify"> This project implements manual control of a 3R-manipulator using LabVIEW, XBox & Arduino and then a fully autonomous implementation involving inverse kinematic solution implemented using C++. </p>
+
 ## An anecdote
+
 <p>
   &emsp; Though I would like to strictly mention technical details of the project here, I feel, for me this project is just incomplete without an anectode I would like to add.</p>
 <p>
