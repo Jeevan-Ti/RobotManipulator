@@ -8,7 +8,7 @@
 </p>
   
 <p align="justify">
-  &emsp; In the 1st semester of college I won in some very easy(not for a novice like me at that time though) technical competitions as any fresher, where I felt, kind of a reconnection with the maker in me. And through those competitions I found this great student club at Lovely Professional University -LPU, called Robotics and Intelligent Systems Community <a href="https://www.facebook.com/RISC.LPU/"> <b>RISC-LPU</b></a>, whose motto says <b>"Learn Implement Share"</b>. In this club I found greatly motivated and enthusiastic students who were going an extra-mile to implement their domain knowledge and at the same time organising workshops to share their experience. Our mentor and founder of RISC-LPU, Asst Prof. Bikash Kant sir, motivated me to take up a project on Robot Manipulator which was'nt explored by the club that time. 
+  &emsp; In the 1st semester of college I won in some very easy(not for a novice like me at that time though) technical competitions as any fresher, where I felt, kind of a reconnection with the maker in me. And through those competitions I found this great student club at Lovely Professional University -LPU, called Robotics and Intelligent Systems Community <a href="https://www.facebook.com/RISC.LPU/" target="_blank"> <b>RISC-LPU</b></a>, whose motto says <b>"Learn Implement Share"</b>. In this club I found greatly motivated and enthusiastic students who were going an extra-mile to implement their domain knowledge and at the same time organising workshops to share their experience. Our mentor and founder of RISC-LPU, Asst Prof. Bikash Kant sir, motivated me to take up a project on Robot Manipulator which was'nt explored by the club that time. 
 </p>
 
 <p align="justify"> 
@@ -18,7 +18,7 @@
 <p align="justify"> &emsp; Nothing felt more cool and interesting than designing a full control panel GUI using LabVIEW at that time. Later I implemented fully autonomous Robot Manipulator, solving the inverse kinematic equations with the basic trignometry I learnt during high school, but not DH Parameters (I learnt about them later). Enough of anecdotes now I think, let me do some technical now. </p>
 
 ## Technical details
-A [friend](https://www.linkedin.com/in/vinaykumarreddykomma/) of mine later designed this 3D 3R-manipulator for an automatic soil mapping project, which use the same skeleton as the first arm design in the club. So for easier understanding I am showing it here: <br> <br>
+A <a href="https://www.linkedin.com/in/vinaykumarreddykomma/" target="_blank">friend</a> of mine later designed this 3D 3R-manipulator for an automatic soil mapping project, which use the same skeleton as the first arm design in the club. So for easier understanding I am showing it here: <br> <br>
   
 ![20210727_130156](https://user-images.githubusercontent.com/49190581/127200899-f5317628-6345-4f21-9465-e68cfa2b8640.gif)
 
@@ -50,7 +50,7 @@ To skip theory head to code <a href="auto code">click here</a>.
 <p align="justify"> Here I'll be showing two ways of implementing inverse kinematic(IK) sollution.</p>
 
   1. Mathematical IK sollution, which is easy to solve for upto 4-DOF 4R manipulators.
-  2. A numerical method of IK sollution implemented using [**RoboticsLibrary's**](https://www.roboticslibrary.org/) API's.
+  2. A numerical method of IK sollution implemented using <a href="https://www.roboticslibrary.org/" target="_blank"> friend </a> API's.
  
  <h5>Simply put:</h5>
  <h6> Forward kinematics</h6>
@@ -133,4 +133,6 @@ As you can see,
     C++ Implementation
     </a>
   </h3>
+  
+  
 **Content Loading !!**
