@@ -1,6 +1,6 @@
 # 3R Robot Manipulator
 <p align="justify">
-This project implements manual control of a 3R-manipulator using LabVIEW, XBox & Arduino and then a fully autonomous implementation involving inverse kinematic solution implemented using C++.
+This project implements manual control of a 3R-manipulator using LabVIEW, XBox & Arduino and then a fully autonomous varient, whose inverse kinematic solution is implemented using C++.
   </p>
 
 ## A Personal anecdote
@@ -9,21 +9,21 @@ This project implements manual control of a 3R-manipulator using LabVIEW, XBox &
   &emsp; Though I would like to strictly mention technical details of the project here, I feel, for me this project is just incomplete without an anectode I would like to add.</p>
   
 <p align="justify">
-  Those who would like to skip can go <a href="#manual_code"><u><b>here</b></u></a> (for manual control details) or <a href="#auto_code"><u><b>here</b></u></a> (for autonomous control details) directly.
+  Those who would like to skip can go <a href="#manual_code"><u>here</u></a> (for manual control details) or <a href="#auto_code"><u>here</u></a> (for autonomous control details) directly.
 </p>
   
 <p align="justify">
-  &emsp; In the 1st semester of college I won in some very easy(not for a novice like me at that time though) technical competitions as any fresher, where I felt, kind of a reconnection with the maker in me. And through those competitions I found this great student club at Lovely Professional University -LPU, called Robotics and Intelligent Systems Community <a href="https://www.facebook.com/RISC.LPU/" target="_blank" rel="noreferrer noopener"> <b>RISC-LPU</b></a>, whose motto says <b>"Learn Implement Share"</b>. In this club I found greatly motivated and enthusiastic students who were going an extra-mile to implement their domain knowledge and at the same time organising workshops to share their experience. Our mentor and founder of RISC-LPU, Asst Prof. Bikash Kant sir, motivated me to take up a project on Robot Manipulator which was'nt explored by the club that time. 
+  &emsp; In the 1st semester of college I won in some very easy(not for a novice like me at that time though) technical competitions as any fresher, where I felt, kind of a reconnection with the maker in me. And through those competitions I found this great student club at Lovely Professional University -LPU, called Robotics and Intelligent Systems Community <a href="https://www.facebook.com/RISC.LPU/" target="_blank" rel="noreferrer noopener"> <u>RISC-LPU</u></a>, whose motto says <b>"Learn Implement Share"</b>. In this club I found greatly motivated and enthusiastic students who were going an extra-mile to implement their domain knowledge and at the same time organising workshops to share their experience. Our mentor and founder of RISC-LPU, Asst Prof. Bikash Kant sir, motivated me to take up a project on Robot Manipulator which was'nt explored by the club that time. 
 </p>
 
 <p align="justify"> 
-  &emsp; The culture of the club was to self-learn areas, the club members had not explored, either seeking guidance from the faculty or the internet. Being a student  in 2nd semester and having no connections what-so-ever, it came to me that internet would be the ideal source to learn from. In that course of time I learnt a lot about robotics and robot manipulators. I spent almost all the free time in the club learning about them. Our mentor asked us to start designing a basic manual manipulator arm, because as he belived in 'learning by doing'. With the limited knowledge I had at that time, first I wanted to design something with which I can control the manipulator using an XBox controller I had at that time. So, I started to implement the project in LabVIEW, beacuse it can be interface with both Arduino (we used it as servo controller) and my XBox controller.
+  &emsp; The culture of the club was to self-learn areas, the club members had not explored, either seeking guidance from the faculty or the internet. Being a student  in 2nd semester and having no connections what-so-ever, it came to me that internet would be the ideal source to learn from. In that course of time I learnt a lot about robotics and robot manipulators. I spent almost all the free time in the club learning about them. Our mentor asked us to start designing a basic manual manipulator arm, because as he believed in 'learning by doing'. With the limited knowledge I had at that time, first I wanted to design something with which I can control the manipulator using an XBox controller. So, I started to implement the project in LabVIEW, beacuse it can be interfaced with both Arduino (I used it as servo controller) and my XBox controller easily.
 </p>
 
-<p align="justify"> &emsp; Nothing felt more cool and interesting than designing a full control panel GUI using LabVIEW at that time. Later I implemented fully autonomous Robot Manipulator, solving the inverse kinematic equations with the basic trignometry I learnt during high school, but not DH Parameters (I learnt about them later). Enough of anecdotes now I think, let me do some technical now. </p>
+<p align="justify"> &emsp; Nothing felt more cool and interesting than designing a full control panel GUI using LabVIEW at that time. Later I implemented fully autonomous Robot Manipulator, solving the inverse kinematic equations with the basic trignometry I learnt during high school, but not DH Parameters (I learnt about them later). Now let us get into project details. </p>
 
 ## Technical details
-A <a href="https://www.linkedin.com/in/vinaykumarreddykomma/" target="_blank" rel="noreferrer noopener">friend</a> of mine later designed this 3D 3R-manipulator for an automatic soil mapping project, which use the same skeleton as the first arm design in the club. So for easier understanding I am showing it here: <br> <br>
+A <a href="https://www.linkedin.com/in/vinaykumarreddykomma/" target="_blank" rel="noreferrer noopener"><u>friend</u></a> of mine later designed this 3D 3R-manipulator for an automatic soil mapping project, which use the same skeleton as the first arm design in the club. So for easier understanding I am showing it here: <br> <br>
   
 ![20210727_130156](https://user-images.githubusercontent.com/49190581/127200899-f5317628-6345-4f21-9465-e68cfa2b8640.gif)
 
@@ -31,7 +31,7 @@ A <a href="https://www.linkedin.com/in/vinaykumarreddykomma/" target="_blank" re
 <a id="manual_code">Manual Control using LabVIEW & XBox</a>
   </h3>
   
-<p align="justify">The arm has three revolute joints (excluding end-effector). So, three servo motors with adequate torque had been used as actuators.</p>
+<p align="justify">The arm has three revolute joints (excluding end-effector). So, three servo motors with adequate torque have been used as actuators.</p>
 Also the keys of XBox are as below:
 
 <img src = "https://user-images.githubusercontent.com/49190581/127202916-da942dde-f313-4e12-8a2a-4eb488e4f7c2.png" alt="xbox layout" width="400" height="auto">
@@ -50,12 +50,12 @@ Also the keys of XBox are as below:
 
 ### Autonomous Implementation
 
-To skip theory head to code <a href="auto code">click here</a>.
+To skip theory head to code <a href="auto code"><u>click here</u></a>.
 
 <p align="justify"> Here I'll be showing two ways of implementing inverse kinematic(IK) sollution.</p>
 
   1. Mathematical IK sollution, which is easy to solve for upto 4-DOF 4R manipulators.
-  2. A numerical method of IK sollution implemented using <a href="https://www.roboticslibrary.org/" target="_blank" rel="noreferrer noopener"> friend </a> API's.
+  2. A numerical method of IK sollution implemented using <a href="https://www.roboticslibrary.org/" target="_blank" rel="noreferrer noopener"> <u>RoboticLibrary's</u> </a> API's.
  
  <h5>Simply put:</h5>
  <h6> Forward kinematics</h6>
@@ -68,11 +68,13 @@ To skip theory head to code <a href="auto code">click here</a>.
 
 <img src="https://user-images.githubusercontent.com/49190581/127517308-4929cfc2-fec1-490e-bfd8-4422116f8538.png" alt="Top View" width="450" height="auto">
 
-<br>While solving any problem in cartesian space we assume some sign conventions (relative to something),<br>
-In our case let us assume,
-a. Reference axis is the horizontal axis ||el to ground.
-b. Angle measured anticlockwise away from reference axis is positive.
-c. Angle measured clockwise away from reference axis is negative.
+<p><br>
+  While solving any problem in cartesian space we assume some sign conventions (relative to something),
+<br> In our case let us assume,
+<br> a. Reference axis is the horizontal axis ||el to ground.
+<br> b. Angle measured anticlockwise away from reference axis is positive.
+<br> c. Angle measured clockwise away from reference axis is negative.
+  </p>
 
 <img src="https://user-images.githubusercontent.com/49190581/127517782-340d529d-5fde-4c50-9298-224a1618646b.png" alt="img2" width="350" height="auto">
 
@@ -83,8 +85,7 @@ Here,
 </p>
 
 <p align="justify">
-Our aim is to find twist angles i.e. angle of the link with respect to its previous link’s reference axis.
-<br>In the figure the twist angles are, 1   ,   2   ,   3   . 
+Our aim is to find twist angles i.e. angle of the link with respect to its previous link’s reference axis. In the figure the twist angles are <b> 1   ,   2   ,   3 </b>  . 
   </p>
  
 As you can see,
@@ -102,17 +103,17 @@ As you can see,
 <img src="https://user-images.githubusercontent.com/49190581/127523894-56ab111b-cbff-4b3e-9208-6010e1ed2486.png" alt="img6" width="350" height="auto">
 
 <p>
- <b> WHEN WE HAVE MORE THAN TWO LINKS OR TWO LINKS WITH MORE THAN ONE DEGREE OF FREEDOM, THEN THE SOLLUTIONS WILL BE INFINITE.
+ WHEN WE HAVE MORE THAN TWO LINKS OR TWO LINKS WITH MORE THAN ONE DEGREE OF FREEDOM, THEN THE SOLLUTIONS WILL BE INFINITE.
   </p>
   
  <h5>Process Flow of Program</h5>
  
  <img src="https://user-images.githubusercontent.com/49190581/127529867-4aa2d110-a006-49b0-a596-17963ee1bc98.png" alt="img7" width="1000" height="auto">
 
- <br> <img src="https://user-images.githubusercontent.com/49190581/127524838-524424b9-4e41-4f97-b2ea-13e1194c85aa.png" alt="img8" width="450" height="auto"> &emsp; <img src="https://user-images.githubusercontent.com/49190581/127530483-407c4ffc-838d-4dc2-a50f-e90ef70751a1.png" alt="img9" width="300" height="auto">
+ <br><br> <img src="https://user-images.githubusercontent.com/49190581/127524838-524424b9-4e41-4f97-b2ea-13e1194c85aa.png" alt="img8" width="450" height="auto"> &emsp; <img src="https://user-images.githubusercontent.com/49190581/127530483-407c4ffc-838d-4dc2-a50f-e90ef70751a1.png" alt="img9" width="300" height="auto">
  
  <p>
-  POINT OF END EFFECTOR SHOULD BE (X,Y,Z) = (LpCOS θ1 , LpSIN θ1 , Z)
+  <br> POINT OF END EFFECTOR SHOULD BE (X,Y,Z) = (LpCOS θ1 , LpSIN θ1 , Z)
   </p>
   
   <p>
@@ -125,11 +126,17 @@ As you can see,
 
 <img src="https://user-images.githubusercontent.com/49190581/127531063-0e29c02f-d614-4849-beaf-6ae6c273469c.png" alt="img10" width="350" height="auto">
 
-<br> <img src="https://user-images.githubusercontent.com/49190581/127531265-7a9884df-1b65-4240-a687-7e93b9f11fcb.png" alt="img10 1" width="350" height="auto"> &emsp; <img src="https://user-images.githubusercontent.com/49190581/127531399-3f711630-721a-4ba1-b307-b54508c6d492.png" alt="img10" width="200" height="auto">
+<p> 
+  <img src="https://user-images.githubusercontent.com/49190581/127531265-7a9884df-1b65-4240-a687-7e93b9f11fcb.png" alt="img10 1" width="350" height="auto"> &emsp; <img src="https://user-images.githubusercontent.com/49190581/127531399-3f711630-721a-4ba1-b307-b54508c6d492.png" alt="img10" width="200" height="auto">
+  </p>
 
+<p>
 <br> <img src="https://user-images.githubusercontent.com/49190581/127531970-53866ff1-2b97-4a40-8b6f-2f7b75fc1b0a.png" alt="img10 3" width="350" height="auto"> &emsp; <img src="https://user-images.githubusercontent.com/49190581/127531984-2451acaf-c641-4798-a0f2-bf0500ae9979.png" alt="img10" width="200" height="auto">
+  </p>
 
-<p> Angle of the end effector can be determined using camera, angle of welding, angle of drilling etc accordingly. But in this case we can hardcode or define the angle in the program because we can always lift block at 0 degree with respect to horizontal cartesian plane.
+<p> 
+  Angle of the end effector can be determined using camera, angle of welding, angle of drilling etc accordingly. But in this 
+  we can hardcode or define the angle in the program because we can always lift block at 0 degree with respect to horizontal cartesian plane.
 </p>
 
 <p>Now let us implement above sollution in C++.</p>
