@@ -50,7 +50,7 @@ Also the keys of XBox are as below:
 
 ### Autonomous Implementation
 
-To skip theory head to code <a href="auto code"><u>click here</u></a>.
+To skip theory head to code <a href="#auto_code"><u>click here</u></a>.
 
 <p align="justify"> Here I'll be showing two ways of implementing inverse kinematic(IK) sollution.</p>
 
