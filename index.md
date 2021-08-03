@@ -2,6 +2,10 @@
 <p align="justify">
 This project implements manual control of a 3R-manipulator using LabVIEW, XBox & Arduino and then a fully autonomous varient, whose inverse kinematic solution is implemented using C++.
   </p>
+  
+  <p align="justify">
+  Those who would like to skip can go <a href="#manual_code"><u>here</u></a> (for manual control details) or <a href="#auto_code"><u>here</u></a> (for autonomous control details) directly.
+  </p>
 <!--
 ## A Personal anecdote
 
