@@ -2,7 +2,7 @@
 <p align="justify">
 This project implements manual control of a 3R-manipulator using LabVIEW, XBox & Arduino and then a fully autonomous varient, whose inverse kinematic solution is implemented using C++.
   </p>
-
+<!--
 ## A Personal anecdote
 
 <p align="justify">
@@ -21,8 +21,9 @@ This project implements manual control of a 3R-manipulator using LabVIEW, XBox &
 </p>
 
 <p align="justify"> &emsp; Nothing felt more cool and interesting than designing a full control panel GUI using LabVIEW at that time. Later I implemented fully autonomous Robot Manipulator, solving the inverse kinematic equations with the basic trignometry I learnt during high school, but not DH Parameters (I learnt about them later). Now let us get into project details. </p>
+-->
 
-## Technical details
+## Project details
 A <a href="https://www.linkedin.com/in/vinaykumarreddykomma/" target="_blank" rel="noreferrer noopener"><u>friend</u></a> of mine later designed this 3D 3R-manipulator for an automatic soil mapping project, which use the same skeleton as the first arm design in the club. So for easier understanding I am showing it here: <br> <br>
   
 ![20210727_130156](https://user-images.githubusercontent.com/49190581/127200899-f5317628-6345-4f21-9465-e68cfa2b8640.gif)
