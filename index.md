@@ -129,7 +129,8 @@ As you can see,
 <br> Z3 = Z – L4SINθ4
   </p>
 
-<img src="https://user-images.githubusercontent.com/49190581/127531063-0e29c02f-d614-4849-beaf-6ae6c273469c.png" alt="img10" width="350" height="auto">
+<img src="https://user-images.githubusercontent.com/49190581/127531063-0e29c02f-d614-4849-beaf-6ae6c273469c.png" alt="img10" width="350" height="auto"> &emsp; <img src="https://user-images.githubusercontent.com/49190581/128065939-a29218f6-1c9b-4f01-a13c-3b3d598c442a.png" alt="img10 1" width="350" height="auto">
+
 
 <p> 
   <img src="https://user-images.githubusercontent.com/49190581/127531265-7a9884df-1b65-4240-a687-7e93b9f11fcb.png" alt="img10 1" width="350" height="auto"> &emsp; <img src="https://user-images.githubusercontent.com/49190581/127531399-3f711630-721a-4ba1-b307-b54508c6d492.png" alt="img10" width="200" height="auto">
