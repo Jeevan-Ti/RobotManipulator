@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/.vs/RobotManipulator/v16/Browse.VC.opendb
+/.vs/RobotManipulator/v16/Browse.VC.db-wal
+/.vs/RobotManipulator/v16/Browse.VC.db-shm
