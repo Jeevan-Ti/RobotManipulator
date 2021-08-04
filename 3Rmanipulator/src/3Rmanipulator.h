@@ -14,7 +14,7 @@ public:
 	Angle TwistAngle1, TwistAngle2, TwistAngle3;
 private:
 	friend class Kinematics;
-	Point Total_Offset;
+	Point Total_Offset, temp;
 	//Angle TwistAngle1, TwistAngle2, TwistAngle3;
 	double link_length1, link_length2, link_length3;
 	void UpdateOffset(Point offset_point);
