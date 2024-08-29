@@ -28,7 +28,7 @@ This project implements manual control of a 3R-manipulator using LabVIEW, XBox &
 -->
 
 ## Project details
-A <a href="https://www.linkedin.com/in/vinaykumarreddykomma/" target="_blank" rel="noreferrer noopener"><u>friend</u></a> of mine later designed this 3D 3R-manipulator for an automatic soil mapping project, which use the same skeleton as the first arm design in the club. So for easier understanding I am showing it here: <br> <br>
+I later designed this 3D 3R-manipulator for an automatic soil mapping project, which use the same skeleton as the first arm design in the club. So for easier understanding I am showing it here: <br> <br>
   
 ![20210727_130156](https://user-images.githubusercontent.com/49190581/127200899-f5317628-6345-4f21-9465-e68cfa2b8640.gif)
 
