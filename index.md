@@ -145,12 +145,4 @@ As you can see,
   we can hardcode or define the angle in the program because we can always lift block at 0 degree with respect to horizontal cartesian plane.
 </p>
 
-<p>Now let us implement above sollution in C++.</p>
-<h3>
-  <a id="auto_code">
-    C++ Implementation
-    </a>
-  </h3>
   
-  
-**Content Loading !!**
